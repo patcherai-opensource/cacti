@@ -26,7 +26,7 @@ Cacti CHANGELOG
 -issue#4853: Deprecation warnings when attempting real-time Graphs with PHP8.1
 -issue#4860: Custom Timespan is lost when clicking other tree branches
 -issue#4863: Non device based Data Sources not being polled
--issue#4865: When Resource XML file inproperly formatted, graph creation can fail with errors
+-issue#4865: When Resource XML file improperly formatted, graph creation can fail with errors
 -issue#4866: Update code style to support PHP 8 requirements
 -issue#4867: In Graph Management, filtering for "Device: None" shows all graphs
 -issue#4871: Realtime popup window experiences issues on some browsers

@@ -53,7 +53,7 @@ if (!cacti_sizeof($page)) {
 } else {
 	global $link_nav;
 
-	if (is_realm_allowed($page['id']+10000)) {
+	if ($page['enabled'] == 'on' && is_realm_allowed($page['id']+10000)) {
 		unset ($refresh);
 
 		if (!empty($page['refresh'])) {
